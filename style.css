@@ -163,6 +163,31 @@ h1 {
     margin-left: 62vw;
 } */
 
+#Skills .contenido {
+    margin: 20px 60px;
+    padding: 20px;
+    font-size: 25px;
+    color: var(--texto);
+}
+
+#Skills .contenido strong {
+    display: none;
+}
+
+#Skills .contenido:hover {
+    background-color: var(--detalles);
+    color: var(--main);
+    font-weight: bold;
+}
+
+#Skills .contenido:hover strong {
+    background-color: var(--detalles);
+    color: var(--main);
+    font-weight: bold;
+    display: inline;
+    margin-left: 62vw;
+}
+
 /* contacto */
 
 .form {
@@ -193,11 +218,15 @@ h1 {
     font-family: 'Khand', sans-serif;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+}
+
 .footer p{
     color: var(--texto);
     text-align: center;
     font-size: 20px;
-    display: inline;
 }
 
 .footer img {
