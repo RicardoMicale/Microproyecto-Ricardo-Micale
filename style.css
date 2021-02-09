@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container {
+    background-color: #FB8500;
+    height: 130px;
+}
+
+.navbar {
+    background-color: #023047;
+    height: 125px;
+}
+
+.navbar a {
+    float: left;
+    position: absolute;
+}
