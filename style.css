@@ -1,19 +1,56 @@
+:root {
+    --fondo: #3B3B3C;
+    --main: #023047;
+    --detalles: #FB8500;
+    --titulos: #219EBC;
+    --subtitulos: #FFB703;
+    --texto: #8ECAE6;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    background-color: var(--fondo);
+    font-family: 'Khand', sans-serif;
+}
+
+h1 {
+    float: left;
+    color: var(--titulos);
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
 .navbar-container {
-    background-color: #FB8500;
+    background-color: var(--detalles);
     height: 130px;
 }
 
 .navbar {
-    background-color: #023047;
+    background-color: var(--main);
     height: 125px;
 }
 
 .navbar a {
-    float: left;
-    position: absolute;
+    float: right;
+    text-align: center;
+    color: var(--titulos);
+    margin: 40px 10px 10px 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--main);
+    background-color: var(--detalles);
+}
+
+.navbar a:active {
+    color: var(--main);
+    background-color: var(--detalles);
 }
