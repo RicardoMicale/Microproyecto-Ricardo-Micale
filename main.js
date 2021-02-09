@@ -1,16 +1,13 @@
-// const prev = document.getElementById(prev);
-// const next = document.getElementById(next);
+const send = document.getElementById('send');
+const nombre = document.getElementById('name');
+const email = document.getElementById('email');
+const mensaje = document.getElementById('msg');
 
-// let numeroImagen = 0;
+send.addEventListener('click', () => {
+    console.log(nombre.value);
+    console.log(email.value);
+    console.log(mensaje.value);
+    alert('Mensaje enviado');
+});
 
-// next.addEventListener('click', () => {
-//     if(numeroImagen < 3) {
-//         if(numeroImagen === 0) {
-//             document.getElementById(imagen).src = './imagenes/avila.png';
-//         } else if(numeroImagen === 1) {
-//             document.getElementById(imagen).src = './imagenes/'
-//         }
-//     } else {
-//         numeroImagen = 0;
-//     }
-// })
+

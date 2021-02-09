@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--navbar-->
     <div class="navbar-container">
         <div class="navbar">
             <h1>Ricardo Micale</h1>
@@ -19,35 +20,61 @@
             <a href="#contacto">Contacto</a>
         </div>
     </div>
+    <!--Hero-->
     <div id="hero-img">
         <div id="carrousel-nav">
-            <h3 id="prev"><<</h3>
+            <a id="prev"><<</a>
             <h3>Ricardo Micale - Estudiante de Ingeniería de sistemas</h3>
-            <h3 id="next">>></h3>
+            <a id="next">>></a>
         </div>
-        <div id="img"><img src="" alt="" id="imagen"></div>
+        <div id="img"><img src="./imagenes/programacion.jpg" alt="carrousel" id="imagen"></div>
     </div>
+    <!--Experiencia-->
     <div id="exp">
         <div>
             <h2 class="title-container">Experiencia</h2>
         </div>
         <hr class="divider">
     </div>
+    <!--About me-->
     <div id="about-me">
             <h2 class="title-container">Acerca de mi</h2>
             <img src="./imagenes/Ricardo.jpeg" alt="Ricardo Micale">
             <p class="contenido">Mi nombre es Ricardo Micale, estudiante de Ingeniería de Sistemas de la Universidad Metropolitana, vivo en caracas.
-                Mi objetivo a corto plazo es graduarme y conseguir experiencia como programador.
-                <br> A largo plazo quisiera hacer una especializacion y tener la suficiente experiencia como para realizar proyectos grandes e importantes
+                <br> Mi objetivo a corto plazo es graduarme y conseguir experiencia como programador. 
+                A largo plazo quisiera hacer una especializacion y tener la suficiente experiencia como para realizar proyectos grandes e importantes
+                <br> Lo que me motiva a ponerme estos objetivos es que me guta programar y que quiero desarrollar programas interesantes
                 <br> Entre mis gustos esta el futbol, tanto jugar como ver, ir a la playa y salir con mis amigos</p>
         <hr class="divider">
     </div>
+    <!--skills-->
     <div id="Skills">
             <h2 class="title-container">Skills</h2>
+            <!-- <p class="skillset" id="py">Python<strong> 70%</strong></p>
+            <p class="skillset" id="java">Java<strong> 65%</strong></p>
+            <p class="skillset" id="html">HTML<strong> 60%</strong></p>
+            <p class="skillset" id="css">CSS<strong> 55%</strong></p>
+            <p class="skillset" id="js">JavaScript<strong> 50%</strong></p> -->
         <hr class="divider">
     </div>
+    <!--Contacto-->
     <div id="Contacto">
-            <h2 class="title-container">Contacto</h2>
+        <h2 class="title-container">Contacto</h2>
+        <form class="form">
+            <h3>Nombre</h3>
+            <input class="inputField" type="text" name="Nombre" id="name">
+            <h3>Correo electronico</h3>
+            <input class="inputField" type="text" name="e-mail" id="email">
+            <h3>Mensaje</h3>
+            <textarea class="inputField" id="msg"></textarea>
+            <input type="submit" id="send">
+        </form>
+        <div class="footer">
+            <a href="https://github.com/RicardoMicale" target="_blank"><img src="./imagenes/github.png" alt="github-logo"><p>RicardoMicale</p></a>
+            <a href=""><img src="./imagenes/instagram.png" alt="intagram-logo"><p>@RicardoMicale</p></a>
+            <a href=""><img src="./imagenes/twitter.png" alt="twitter-logo"><p>@RicardoMicale</p></a>
+            <a href=""><img src="./imagenes/whatsapp.png" alt=""><p>+58 0141 2120549</p></a>
+        </div>
         <hr class="divider">
     </div>
 </body>
