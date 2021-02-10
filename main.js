@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
 });
 
 send.addEventListener('click', () => {
-    alert('Mensaje enviado');
+    alert('Su solicitud ha sido enviada');
 });
 
 
@@ -82,6 +82,7 @@ for(let i = 0; i < textos.length; i++) {
 };
 
 const divider = document.createElement('hr');
+destrezas.appendChild(divider);
 divider.setAttribute('class', 'divider');
 
 //Hero

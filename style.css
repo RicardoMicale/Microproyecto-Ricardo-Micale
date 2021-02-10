@@ -214,25 +214,21 @@ h1 {
 
 
 /* Experiencia */
+
 #exp .contedor-proyectos {
     display: flex;
     justify-content: center;
-}
-
-#exp p, .proyectos {
-    margin: 10px 50px;
-    font-size: 28px;
-    color: var(--texto);
+    align-items: center;
 }
 
 #exp p {
-    text-align: left;
-    width: 100%;
+    color: var(--texto);
+    font-size: 28px;
+    margin: 10px 450px;
 }
 
-#exp .proyectos {
-    margin: 0px 2vw;
+#exp img {
     width: 350px;
     height: 200px;
-    align-items: left;
+    margin: 10px 500px;
 }
