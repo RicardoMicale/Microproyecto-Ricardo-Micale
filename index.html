@@ -31,8 +31,27 @@
     </div>
     <!--Experiencia-->
     <div id="exp">
-        <div>
-            <h2 class="title-container">Experiencia</h2>
+        <h2 class="title-container">Experiencia</h2>
+        <div class="contenedor-proyectos">
+            <img src="./imagenes/proyecto java" alt="proyecto java" class="proyectos">
+            <p>
+                Tres en linea. <br>
+                Proyecto hecho en Java en diciembre de 2020
+            </p>
+        </div>
+        <div class="contenedor-proyectos">
+            <img src="./imagenes/generador contrasenas" alt="proyecto python" class="proyectos">
+            <p>       
+                Generador de contraseñas. <br>
+                Proyecto hecho en Python en Julio de 2020
+            </p>
+        </div>
+        <div class="contenedor-proyectos">
+            <img src="./imagenes/hormigas.png" alt="optimizacion de colonia de hormigas" class="proyectos">
+            <p>    
+                Algoritmo de optimizacion de colonia de hormigas <br>
+                Proyecto hecho en Java con Graphstream en Octubre-Noviembre de 2020
+            </p>
         </div>
         <hr class="divider">
     </div>
@@ -50,31 +69,26 @@
     <!--skills-->
     <div id="Skills">
         <h2 class="title-container">Skills</h2>
-        <!-- <p class="skillset" id="py">Python<strong> 70%</strong></p>
-        <p class="skillset" id="java">Java<strong> 65%</strong></p>
-        <p class="skillset" id="html">HTML<strong> 60%</strong></p>
-        <p class="skillset" id="css">CSS<strong> 55%</strong></p>
-        <p class="skillset" id="js">JavaScript<strong> 50%</strong></p> -->
     </div>
     <!--Contacto-->
     <div id="Contacto">
         <h2 class="title-container">Contacto</h2>
-        <form class="form">
+        <form class="form" id="form">
             <h3>Nombre</h3>
-            <input class="inputField" type="text" name="Nombre" id="name">
+            <input class="inputField" type="text" name="Nombre" id="name" required>
             <h3>Correo electronico</h3>
-            <input class="inputField" type="text" name="e-mail" id="email">
+            <input class="inputField" type="text" name="e-mail" id="email" required>
             <h3>Mensaje</h3>
-            <textarea class="inputField" id="msg"></textarea>
+            <textarea class="inputField" id="msg" required></textarea>
             <input type="submit" id="send">
         </form>
+        <hr class="divider">
         <div class="footer">
             <a href="https://github.com/RicardoMicale" target="_blank"><img src="./imagenes/github.png" alt="github-logo"><p>RicardoMicale</p></a>
-            <a href="#"><img src="./imagenes/instagram.png" alt="intagram-logo"><p>@RicardoMicale</p></a>
-            <a href="#"><img src="./imagenes/twitter.png" alt="twitter-logo"><p>@RicardoMicale</p></a>
-            <a href="#"><img src="./imagenes/whatsapp.png" alt=""><p>+58 0141 2120549</p></a>
+            <a href="https://www.instagram.com/ricardo_micale/" target="_blank"><img src="./imagenes/instagram.png" alt="intagram-logo"><p>@ricardo_micale</p></a>
+            <a href="https://twitter.com/RicardoMicale" target="_blank"><img src="./imagenes/twitter.png" alt="twitter-logo"><p>@RicardoMicale</p></a>
+            <a href="#" target="_blank"><img src="./imagenes/whatsapp.png" alt=""><p>+58 0141 2120549</p></a>
         </div>
-        <hr class="divider">
     </div>
 </body>
 <script src="main.js"></script>

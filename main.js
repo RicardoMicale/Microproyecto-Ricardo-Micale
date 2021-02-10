@@ -2,14 +2,24 @@ const send = document.getElementById('send');
 const nombre = document.getElementById('name');
 const email = document.getElementById('email');
 const mensaje = document.getElementById('msg');
+const form = document.getElementById('form');
+
+form.addEventListener('submit', (e) => {
+
+    e.preventDefault();
+
+    console.log('Nombre ' + nombre.value);
+    console.log('Email ' + email.value);
+    console.log('Mensaje ' + mensaje.value);
+});
 
 send.addEventListener('click', () => {
-    console.log(nombre.value);
-    console.log(email.value);
-    console.log(mensaje.value);
+    
     alert('Mensaje enviado');
 });
 
+
+//Creacionde seccion de skills
 const skills = document.getElementById('Skills');
 
 const skillset = [
