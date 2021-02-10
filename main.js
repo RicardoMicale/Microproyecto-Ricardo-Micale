@@ -1,3 +1,4 @@
+//form
 const send = document.getElementById('send');
 const nombre = document.getElementById('name');
 const email = document.getElementById('email');
@@ -14,12 +15,11 @@ form.addEventListener('submit', (e) => {
 });
 
 send.addEventListener('click', () => {
-    
     alert('Mensaje enviado');
 });
 
 
-//Creacionde seccion de skills
+//Creacion de seccion de skills
 const skills = document.getElementById('Skills');
 
 const skillset = [
@@ -83,3 +83,54 @@ for(let i = 0; i < textos.length; i++) {
 
 const divider = document.createElement('hr');
 divider.setAttribute('class', 'divider');
+
+//Hero
+
+const carrusel = document.getElementById('hero-img');
+const img = document.getElementById('imagen');
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+
+const cambiarImg = (n) => {
+    if(n === 0) {
+        img.src = './imagenes/programacion.jpg';
+    } else if(n === 1) {
+        img.src = './imagenes/avila.png';
+    } else if(n === 2) {
+        img.src = '.imagenes/radcliffe camera.jpg';
+    } else {
+        n = 0;
+    }
+}
+
+let i = 0;
+
+prev.addEventListener('click', () => {
+    if(i === 0) {
+        img.src = './imagenes/programacion.jpg';
+        i += 1;
+    } else if(i === 1) {
+        img.src = './imagenes/avila.png';
+        i += 1;
+    } else if(i === 2) {
+        img.src = './imagenes/radcliffe camera.jpg';
+        i += 1;
+    } else {
+        i = 0;
+    }
+});
+
+next.addEventListener('click', () => {
+    if(i === 2) {
+        img.src = './imagenes/programacion.jpg';
+        i -= 1;
+    } else if(i === 1) {
+        img.src = './imagenes/radcliffe camera.jpg';
+        i -= 1;
+    } else if(i === 0) {
+        img.src = './imagenes/avila.png';
+        i -= 1;
+    } else {
+        i = 2;
+    }
+});

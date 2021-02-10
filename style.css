@@ -76,7 +76,7 @@ h1 {
     width: 100vw;
     top: 70%;
     overflow-x: hidden;
-    background-color: var(--fondo);
+    background-color: var(--texto);
 }
 
 #carrousel-nav h3 {
@@ -84,7 +84,7 @@ h1 {
     font-size: 25px;
     text-align: center;
     display: flex;
-    color: var(--titulos);
+    color: var(--main);
     opacity: 100%;
 }
 
@@ -93,7 +93,7 @@ h1 {
     font-size: 25px;
     text-align: center;
     display: flex;
-    color: var(--titulos);
+    color: var(--main);
     opacity: 100%;
     cursor: pointer;
     text-decoration: none;
@@ -223,7 +223,6 @@ h1 {
     margin: 10px 50px;
     font-size: 28px;
     color: var(--texto);
-    border: solid red;
 }
 
 #exp p {
